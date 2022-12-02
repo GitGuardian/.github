@@ -29,7 +29,7 @@ We offer multiple tools to help keep their secrets safe and out of their source 
 
 - [GitGuardian Public Monitoring](https://www.gitguardian.com/monitor-public-github-for-secrets) <br> GitGuardian monitors GitHub round the clock for your secrets and sensitive data. We catch the leaks, you stop the intrusions.
 
-- [GitGuardian Internal Monitoring](https://www.prisma.io/data-platform) <br> Enforce security rules across your VCS, DevOps tools, and infrastructure-as-code configurations – with GitGuardian’s code security policy engine.
+- [GitGuardian Internal Monitoring](https://www.gitguardian.com/monitor-internal-repositories-for-secrets) <br> Enforce security rules across your VCS, DevOps tools, and infrastructure-as-code configurations – with GitGuardian’s code security policy engine.
 
 ## Repos ⌨️
 
