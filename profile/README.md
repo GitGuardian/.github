@@ -37,8 +37,6 @@ In addition to our monitoring platform offerings, GitGuardian is also proud to o
 
 - [ggshield](https://github.com/GitGuardian/ggshield) <br> A CLI application that runs in your local environment or in a CI environment to help you detect more than 350 types of secrets, as well as other potential security vulnerabilities or policy breaks.
 
-- [HasMyCodeLeaked](https://hasmycodeleaked.gitguardian.com/) <br>  A free tool that helps organizations and creators fingerprint their proprietary code, search for any matches across billions of files on GitHub and generate a report to identify repositories at risk.
-
 - [ggcanary](https://github.com/GitGuardian/ggcanary) <br> A simple Terraform configuration to create and manage GitGuardian Canary Tokens used to monitor for unauthorized access or tampering. 
 
 
