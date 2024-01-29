@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-![GitGuardian](./GitGuardian-Banner-1500x500.jpeg)
+![GitGuardian](https://raw.githubusercontent.com/GitGuardian/.github/main/profile/GitGuardian-Banner-1500x500.jpeg)
 
 <div align="center">
   <h1>GitGuardian</h1>
