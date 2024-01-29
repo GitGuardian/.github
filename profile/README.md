@@ -1,6 +1,7 @@
 ## Hi there 👋
 
-![GitGuardian](../img/GitGuardian-Banner-1500x500.jpeg)
+
+![GitGuardian](./GitGuardian-Banner-1500x500.jpeg)
 
 <div align="center">
   <h1>GitGuardian</h1>
