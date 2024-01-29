@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![GitGuardian](https://pbs.twimg.com/profile_banners/853962281360781312/1660309855/1500x500)
+![GitGuardian](../img/GitGuardian-Banner-1500x500.jpeg)
 
 <div align="center">
   <h1>GitGuardian</h1>
