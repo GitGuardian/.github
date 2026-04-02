@@ -1,0 +1,6 @@
+{
+    "name": "ggscout NHI Inventory",
+    "description": "Collect and send GitHub Actions secrets inventory to a GitGuardian (e.g. Dogfood) instance nightly via ggscout.",
+    "iconName": "octicon shield-check",
+    "categories": ["ci"]
+}
