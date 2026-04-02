@@ -1,0 +1,39 @@
+---
+name: ggscout NHI Inventory
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  inventory:
+    name: NHI Inventory
+    runs-on: ubuntu-latest
+
+    container:
+      image: ghcr.io/gitguardian/ggscout/chainguard-bash:latest
+
+    permissions:
+      contents: read
+
+    steps:
+    - name: Create ggscout config
+      run: |
+        cat > /tmp/config.toml << 'EOF'
+[sources.github-actions]
+type = "githubactions"
+env = "production"
+
+[gitguardian]
+api_token = "${GITGUARDIAN_API_KEY}"
+endpoint = "https://api.gitguardian.com/v1"
+EOF
+
+    - name: Collect and send secrets inventory
+      env:
+        GGSCOUT_GITHUB_ACTION_SECRETS: ${{ toJSON(secrets) }}
+        GGSCOUT_GITHUB_ACTION_CONTEXT: ${{ toJSON(github) }}
+        GGSCOUT_GITHUB_API_TOKEN: ${{ secrets.GGSCOUT_GITHUB_TOKEN }}
+        GITGUARDIAN_API_KEY: ${{ secrets.GGSCOUT_GHAPP_SECRETKEY }}
+      run: ggscout fetch-and-send /tmp/config.toml
