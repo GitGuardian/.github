@@ -5,9 +5,9 @@ on:
   workflow_call:
     secrets:
       GGSCOUT_GITHUB_TOKEN:
-        required: true
+        required: false
       GGSCOUT_GHAPP_SECRETKEY:
-        required: true
+        required: false
 
 jobs:
   inventory:
