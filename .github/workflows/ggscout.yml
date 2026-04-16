@@ -4,9 +4,9 @@ name: ggscout NHI Inventory
 on:
   workflow_call:
     secrets:
-      GGSCOUT_GITHUB_TOKEN:
-        required: false
       GGSCOUT_GHAPP_SECRETKEY:
+        required: false
+      GGSCOUT_GITGUARDIAN_API_KEY:
         required: false
 
 jobs:
@@ -37,6 +37,6 @@ jobs:
       env:
         GGSCOUT_GITHUB_ACTION_SECRETS: ${{ toJSON(secrets) }}
         GGSCOUT_GITHUB_ACTION_CONTEXT: ${{ toJSON(github) }}
-        GGSCOUT_GITHUB_API_TOKEN: ${{ secrets.GGSCOUT_GITHUB_TOKEN }}
-        GITGUARDIAN_API_KEY: ${{ secrets.GGSCOUT_GHAPP_SECRETKEY }}
+        GGSCOUT_GITHUB_API_TOKEN: ${{ secrets.GGSCOUT_GHAPP_SECRETKEY }}
+        GITGUARDIAN_API_KEY: ${{ secrets.GGSCOUT_GITGUARDIAN_API_KEY }}
       run: ggscout fetch-and-send /tmp/config.toml
