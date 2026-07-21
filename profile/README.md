@@ -25,7 +25,7 @@ In addition to our monitoring platform offerings, GitGuardian is also proud to o
 ## News & Resources 📰
 
 * Keep up to date with the latest GitGuardian news by visiting the [**GitGuardian Newsroom**](https://www.gitguardian.com/newsroom)  
-* [**State of Secrets Sprawl Report**](https://www.gitguardian.com/state-of-secrets-sprawl-report-2025): Our annual research report on secrets leakage across public and private repositories. In 2025 alone, 28.65 million new hardcoded secrets were added to public GitHub, a 34% year-over-year increase.  
+* [**State of Secrets Sprawl Report**](https://www.gitguardian.com/state-of-secrets-sprawl-report-2026): Our annual research report on secrets leakage across public and private repositories. In 2025 alone, 28.65 million new hardcoded secrets were added to public GitHub, a 34% year-over-year increase.  
 * [**Come hang out with us at an upcoming event**](https://www.gitguardian.com/events). See when the GitGuardian team will be coming to a conference near you\!  
 * [**GitGuardian Blog**](https://blog.gitguardian.com/): Read in-depth articles about DevSecOps, Security Best Practices, Secrets Detection, NHI Security and a lot more\!
 
