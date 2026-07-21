@@ -13,7 +13,7 @@ We offer multiple tools to help keep secrets safe and out of source code:
 * [Internal Secrets Monitoring](https://www.gitguardian.com/monitor-internal-repositories-for-secrets) Detect hardcoded credentials across your private repositories, CI/CD pipelines, container images, cloud configs, and collaboration tools like Slack, Jira, and Confluence, with 500+ detectors and live validity checks that confirm each secret is active.  
 * [Public Secrets Monitoring](https://www.gitguardian.com/monitor-public-github-for-secrets) GitGuardian monitors public GitHub round the clock for your secrets and sensitive data. We catch the leaks, you stop the intrusions.  
 * [Developer Endpoint Protection](https://www.gitguardian.com/developer-endpoint-protection) Extend coverage to the developer machine itself: config files, shell history, MCP configs, and files persisted by AI coding agents like Claude Code, Cursor, and Copilot. AI Hooks add runtime guardrails inside the agents, checking prompts before they are sent.  
-* [NHI Governance](https://www.gitguardian.com/non-human-identity-management) Discover every Non-Human Identity (NHI) behind your credentials: service accounts, API keys, tokens, and machine credentials. Attribute ownership, score risk, and surface continuous compliance evidence across your entire infrastructure.
+* [NHI Governance](https://www.gitguardian.com/nhi-governance) Discover every Non-Human Identity (NHI) behind your credentials: service accounts, API keys, tokens, and machine credentials. Attribute ownership, score risk, and surface continuous compliance evidence across your entire infrastructure.
 
 ## Repos ⌨️
 
@@ -32,9 +32,9 @@ In addition to our monitoring platform offerings, GitGuardian is also proud to o
 ## Stay in touch 🖐
 
 * [**Subscribe to us on YouTube**](https://www.youtube.com/channel/UCHGxYyzf4eXzpMz5kyqVZSQ) to learn all about security best practices and keep up with industry trends.  
-* [**Follow us on Twitter**](https://twitter.com/gitguardian) to get the latest updates from the GitGuardian team and stay current on community news.  
+* [**Follow us on X**](https://x.com/gitguardian) to get the latest updates from the GitGuardian team and stay current on community news.
+* [**Find us on Bluesky**](https://bsky.app/profile/gitguardian.com) as well, if that's more your platform.
 * [**Follow us on LinkedIn**](https://www.linkedin.com/company/gitguardian) to connect to the GitGuardian team\!  
-* [**Like us on Facebook**](https://www.facebook.com/GitGuardian/). We would sure 👍 it if you did.  
 * [**Drop us a line**](https://www.gitguardian.com/contact-us). Got a question? The team is glad to get you an answer\! Don't be shy and tell us what is on your mind.
 
 ## Join the team 💪
